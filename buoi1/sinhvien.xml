@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Hãy tạo một tệp XML sinhvien.xml mô tả danh sách sinh viên trong một lớp học. Mỗi sinh viên có:
+Họ và tên (name)
+Mã sinh viên (id)
+Danh sách các môn học (subjects), mỗi môn học gồm:
+Tên môn (subject_name)
+Điểm số (score) -->
+<class>
+    <student>
+        <name>Nguyễn Văn A</name>
+        <id>SV001</id>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>8.5</score>
+            </subject>
+            <subject>
+                <subject_name>Văn</subject_name>
+                <score>7.0</score>
+            </subject>
+            <subject>
+                <subject_name>Anh</subject_name>
+                <score>9.0</score>
+            </subject>
+        </subjects>
+    </student>
+    <student>
+        <name>Trần Thị B</name>
+        <id>SV002</id>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>9.0</score>
+            </subject>
+            <subject>
+                <subject_name>Văn</subject_name>
+                <score>8.5</score>
+            </subject>
+            <subject>
+                <subject_name>Anh</subject_name>
+                <score>8.0</score>
+            </subject>
+        </subjects>
+    </student>
+    <student>
+        <name>Lê Văn C</name>
+        <id>SV003</id>
+        <subjects>
+            <subject>
+                <subject_name>Toán</subject_name>
+                <score>7.5</score>
+            </subject>
+            <subject>
+                <subject_name>Văn</subject_name>
+                <score>6.0</score>
+            </subject>
+            <subject>
+                <subject_name>Anh</subject_name>
+                <score>7.0</score>
+            </subject>
+        </subjects>
+    </student>
+</class>

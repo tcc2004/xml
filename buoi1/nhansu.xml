@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Một công ty có nhiều phòng ban, mỗi phòng ban có nhân viên với thông tin như:
+name (tên nhân viên)
+id (mã nhân viên)
+position (chức vụ)
+Để tổ chức dữ liệu tốt hơn, công ty sử dụng XML Namespace:
+Namespace xmlns:hr="http://company.com/hr" để chứa thông tin nhân sự.
+Namespace xmlns:dep="http://company.com/department" để chứa thông tin phòng ban.
+Yêu cầu:
+Sử dụng namespace prefix (hr: và dep:) để phân biệt dữ liệu.
+Tạo ít nhất 2 phòng ban và 3 nhân viên.
+Ví dụ XML mẫu:
+<company xmlns:hr="http://company.com/hr" xmlns:dep="http://company.com/department">
+    <dep:department name="Kế toán">
+        <hr:employee id="E001">
+            <hr:name>Nguyễn Văn A</hr:name>
+            <hr:position>Kế toán trưởng</hr:position>
+        </hr:employee>
+    </dep:department>
+
+</company> -->
+<company xmlns:hr="http://company.com/hr" xmlns:dep="http://company.com/department">
+    <dep:department name="Kế toán">
+        <hr:employee id="E001">
+            <hr:name>Nguyễn Văn A</hr:name>
+            <hr:position>Kế toán trưởng</hr:position>
+        </hr:employee>
+        <hr:employee id="E002">
+            <hr:name>Trần Thị B</hr:name>
+            <hr:position>Kế toán viên</hr:position>
+        </hr:employee>
+    </dep:department>
+    <dep:department name="Nhân sự">
+        <hr:employee id="E003">
+            <hr:name>Lê Văn C</hr:name>
+            <hr:position>Trưởng phòng nhân sự</hr:position>
+        </hr:employee>
+        <hr:employee id="E004">
+            <hr:name>Phạm Thị D</hr:name>
+            <hr:position>Chuyên viên nhân sự</hr:position>
+        </hr:employee>
+    </dep:department>
+</company>

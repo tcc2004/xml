@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Bạn đang xây dựng một hệ thống quản lý bệnh viện, trong đó có:
+Thông tin bệnh nhân (patient):
+id (Mã bệnh nhân)
+name (Tên bệnh nhân)
+dob (Ngày sinh)
+Thông tin bác sĩ (doctor):
+id (Mã bác sĩ)
+name (Tên bác sĩ)
+specialty (Chuyên khoa)
+Thông tin cuộc hẹn (appointment):
+id (Mã cuộc hẹn)
+date (Ngày hẹn)
+status (Trạng thái: "Đã khám", "Chưa khám")
+Yêu cầu:
+Sử dụng default namespace (xmlns="http://example.com/hospital") cho toàn bộ tài liệu.
+Dùng namespace riêng để phân loại dữ liệu:
+xmlns:pat="http://example.com/patient" cho bệnh nhân.
+xmlns:doc="http://example.com/doctor" cho bác sĩ.
+xmlns:app="http://example.com/appointment" cho cuộc hẹn.
+Kết hợp XML attributes với namespace để lưu thông tin.
+Tạo ít nhất 2 cuộc hẹn, mỗi cuộc hẹn có 1 bệnh nhân và 1 bác sĩ.
+Ví dụ XML mẫu:
+<hospital xmlns="http://example.com/hospital"
+          xmlns:pat="http://example.com/patient"
+          xmlns:doc="http://example.com/doctor"
+          xmlns:app="http://example.com/appointment">
+
+    <app:appointment id="A001" date="2025-03-05" status="Đã khám">
+        <pat:patient id="P001">
+            <pat:name>Nguyễn Văn A</pat:name>
+            <pat:dob>1990-07-15</pat:dob>
+        </pat:patient>
+        <doc:doctor id="D001">
+            <doc:name>Trần Thị B</doc:name>
+            <doc:specialty>Nội khoa</doc:specialty>
+        </doc:doctor>
+    </app:appointment>
+
+</hospital> -->
+<hospital xmlns="http://example.com/hospital"
+          xmlns:pat="http://example.com/patient"
+          xmlns:doc="http://example.com/doctor"
+          xmlns:app="http://example.com/appointment">
+
+    <app:appointment id="A001" date="2025-03-05" status="Đã khám">
+        <pat:patient id="P001">
+            <pat:name>Nguyễn Văn A</pat:name>
+            <pat:dob>1990-07-15</pat:dob>
+        </pat:patient>
+        <doc:doctor id="D001">
+            <doc:name>Trần Thị B</doc:name>
+            <doc:specialty>Nội khoa</doc:specialty>
+        </doc:doctor>
+    </app:appointment>
+    <app:appointment id="A002" date="2025-03-10" status="Chưa khám">
+        <pat:patient id="P002">
+            <pat:name>Lê Văn C</pat:name>
+            <pat:dob>1985-11-20</pat:dob>
+        </pat:patient>
+        <doc:doctor id="D002">
+            <doc:name>Phạm Thị D</doc:name>
+            <doc:specialty>Ngoại khoa</doc:specialty>
+        </doc:doctor>
+    </app:appointment>
+</hospital>

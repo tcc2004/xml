@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Giả sử bạn đang thiết kế một hệ thống quản lý khóa học trực tuyến. Dữ liệu cần lưu trữ bao gồm:
+Thông tin khóa học (course):
+id (Mã khóa học)
+title (Tiêu đề khóa học)
+category (Danh mục khóa học, ví dụ: "Lập trình", "Thiết kế")
+Thông tin giảng viên (instructor):
+id (Mã giảng viên)
+name (Tên giảng viên)
+email (Email giảng viên)
+Thông tin sinh viên đăng ký (student):
+id (Mã sinh viên)
+name (Tên sinh viên)
+progress (Tiến độ học tập theo phần trăm)
+Yêu cầu:
+Sử dụng 3 namespace để phân loại dữ liệu:
+xmlns:course="http://example.com/course" cho thông tin khóa học.
+xmlns:instructor="http://example.com/instructor" cho thông tin giảng viên.
+xmlns:student="http://example.com/student" cho thông tin sinh viên.
+Kết hợp namespace với XML attributes để lưu thông tin.
+Tạo ít nhất 2 khóa học, mỗi khóa học có một giảng viên và một danh sách sinh viên.
+Ví dụ XML mẫu:
+<elearning xmlns:course="http://example.com/course"
+           xmlns:instructor="http://example.com/instructor"
+           xmlns:student="http://example.com/student">
+    
+    <course:course id="C001" category="Lập trình">
+        <course:title>Python cơ bản</course:title>
+        <instructor:instructor id="I001">
+            <instructor:name>Nguyễn Văn A</instructor:name>
+            <instructor:email>nguyenvana@example.com</instructor:email>
+        </instructor:instructor>
+        <course:students>
+            <student:student id="S001" progress="80">
+                <student:name>Trần Thị B</student:name>
+            </student:student>
+            <student:student id="S002" progress="50">
+                <student:name>Hoàng Minh C</student:name>
+            </student:student>
+        </course:students>
+    </course:course>
+
+</elearning> -->
+<elearning xmlns:course="http://example.com/course"
+           xmlns:instructor="http://example.com/instructor"
+           xmlns:student="http://example.com/student">
+    
+    <course:course id="C001" category="Lập trình">
+        <course:title>Python cơ bản</course:title>
+        <instructor:instructor id="I001">
+            <instructor:name>Nguyễn Văn A</instructor:name>
+            <instructor:email>nguyenvana@example.com</instructor:email>
+        </instructor:instructor>
+        <course:students>
+            <student:student id="S001" progress="80">
+                <student:name>Trần Thị B</student:name>
+            </student:student>
+            <student:student id="S002" progress="50">
+                <student:name>Hoàng Minh C</student:name>
+            </student:student>
+        </course:students>
+    </course:course>
+</elearning>

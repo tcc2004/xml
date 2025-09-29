@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Hãy tạo một tệp XML sanpham.xml mô tả danh sách sản phẩm của một cửa hàng. Mỗi sản phẩm có các thuộc tính:
+id (mã sản phẩm, duy nhất)
+category (loại sản phẩm, ví dụ: "Điện tử", "Thời trang")
+price (giá sản phẩm)
+currency (đơn vị tiền tệ, ví dụ: "USD", "VND") -->
+<store>
+    <product id="P001" category="Điện tử" price="1500" currency="USD">
+        <name>iPhone 13</name>
+        <brand>Apple</brand>
+        <stock>50</stock>
+    </product>
+    <product id="P002" category="Điện tử" price="1200" currency="USD">
+        <name>Samsung Galaxy S21</name>
+        <brand>Samsung</brand>
+        <stock>30</stock>
+    </product>
+    <product id="P003" category="Thời trang" price="500" currency="VND">
+        <name>Áo Thun Nam</name>
+        <brand>Nike</brand>
+        <stock>100</stock>
+    </product>
+    <product id="P004" category="Thời trang" price="700" currency="VND">
+        <name>Quần Jeans Nữ</name>
+        <brand>Levi's</brand>
+        <stock>80</stock>
+    </product>
+    <product id="P005" category="Điện tử" price="300" currency="USD">
+        <name>Laptop Dell XPS 13</name>
+        <brand>Dell</brand>
+        <stock>20</stock>
+    </product>
+</store>

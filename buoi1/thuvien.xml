@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- #xml  -->
+<!-- Mỗi quyển sách cần có các thông tin sau:
+Tiêu đề (title)
+Tác giả (author)
+Năm xuất bản (year)
+Thể loại (genre) -->
+<library>
+    <book>
+        <title>Đắc Nhân Tâm</title>
+        <author>Dale Carnegie</author>
+        <year>1936</year>
+        <genre>Self-help</genre>
+    </book>
+    <book>
+        <title>Nhà Giả Kim</title>
+        <author>Paulo Coelho</author>
+        <year>1988</year>
+        <genre>Fiction</genre>
+    </book>
+    <book>
+        <title>Sapiens: Lược Sử Loài Người</title>
+        <author>Yuval Noah Harari</author>
+        <year>2011</year>
+        <genre>History</genre>
+    </book>
+    <book>
+        <title>Tuổi Trẻ Đáng Giá Bao Nhiêu</title>
+        <author>Rosie Nguyễn</author>
+        <year>2017</year>
+        <genre>Self-help</genre>
+    </book>
+    <book>
+        <title>Hạt Giống Tâm Hồn</title>
+        <author>Jack Canfield, Mark Victor Hansen</author>
+        <year>1993</year>
+        <genre>Inspirational</genre>
+    </book>
+</library>
