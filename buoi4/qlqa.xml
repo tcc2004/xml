@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<quanan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qlqa.xsd">
+    <!-- BAN (5 dòng) -->
+    <ban tenban="Ban 1" soban="1"/>
+    <ban tenban="Ban 2" soban="2"/>
+    <ban tenban="Ban 3" soban="3"/>
+    <ban tenban="Ban 4" soban="4"/>
+    <ban tenban="Ban 5" soban="5"/>
+
+    <!-- MON (5 dòng) -->
+    <mon mamon="M01" tenmon="Pho bo" giamon="30000" hinhanh="pho.jpg"/>
+    <mon mamon="M02" tenmon="Bun cha" giamon="35000" hinhanh="buncha.jpg"/>
+    <mon mamon="M03" tenmon="Com tam" giamon="40000" hinhanh="comtam.jpg"/>
+    <mon mamon="M04" tenmon="Goi cuon" giamon="25000" hinhanh="goicuon.jpg"/>
+    <mon mamon="M05" tenmon="Chao ga" giamon="30000" hinhanh="chaoga.jpg"/>
+
+    <!-- HOADON (5 dòng) -->
+    <hoadon sohd="1" ngaylap="2025-09-30" tongtien="60000" soban="1" manv="NV01">
+        <chitiet mamon="M01" soluong="2"/>
+    </hoadon>
+    <hoadon sohd="2" ngaylap="2025-09-30" tongtien="70000" soban="2" manv="NV02">
+        <chitiet mamon="M02" soluong="2"/>
+    </hoadon>
+    <hoadon sohd="3" ngaylap="2025-09-30" tongtien="80000" soban="3" manv="NV03">
+        <chitiet mamon="M03" soluong="2"/>
+    </hoadon>
+    <hoadon sohd="4" ngaylap="2025-09-30" tongtien="50000" soban="4" manv="NV04">
+        <chitiet mamon="M04" soluong="2"/>
+    </hoadon>
+    <hoadon sohd="5" ngaylap="2025-09-30" tongtien="60000" soban="5" manv="NV05">
+        <chitiet mamon="M05" soluong="2"/>
+    </hoadon>
+
+    <!-- NHANVIEN (5 dòng) -->
+    <nhanvien manv="NV01" tennv="Nguyen Van A" ngaysinh="1990-01-01" sdt="0123456789" diachi="Ha Noi" username="nguyenvana" password="1234567890ab"/>
+    <nhanvien manv="NV02" tennv="Tran Thi B" ngaysinh="1992-02-02" sdt="0987654321" diachi="Ha Noi" username="tranthib" password="abcdef123456"/>
+    <nhanvien manv="NV03" tennv="Le Van C" ngaysinh="1995-03-03" sdt="0123456790" diachi="Ha Noi" username="levanc" password="1234567890cd"/>
+    <nhanvien manv="NV04" tennv="Nguyen Thi D" ngaysinh="1998-04-04" sdt="0987654322" diachi="Ha Noi" username="nguyenthid" password="abcdef123456ef"/>
+    <nhanvien manv="NV05" tennv="Tran Van E" ngaysinh="2000-05-05" sdt="0123456791" diachi="Ha Noi" username="tranvane" password="1234567890gh"/>
+</quanan>
